@@ -1,5 +1,22 @@
 #!/usr/bin/env node
-// test_cases.js — Validates skewb_cases.json against expected case coverage
+/**
+ * test_cases.js — Skewb Anki deck validation
+ *
+ * Role: Data correctness tests for skewb_cases.json. This file is intentionally
+ * separate from the unit tests because it validates *data* (the Anki card deck),
+ * not library code. Specifically it:
+ *   - Generates many easy Skewb scrambles and runs the case recognizer on them
+ *   - Checks that recognised cases exist in the deck and have the expected
+ *     corner/center permutation metadata
+ *   - Verifies that every algorithm in the deck is self-invertible
+ *     (inv(alg) · alg = solved) — a necessary sanity check on the move strings
+ *   - Reports warnings for notation mismatches (these are known discrepancies
+ *     between absolute sticker notation and hold-relative face notation in the
+ *     deck; they do not indicate bugs in puzzle_utils.js)
+ *
+ * Run with: node test_cases.js
+ * Requires: skewb_cases.json in the same directory.
+ */
 'use strict';
 const { Skewb, getEasySkewbScramble } = require('./app.js');
 const CASE_TABLE = require('./skewb_cases.json');
@@ -314,7 +331,7 @@ section('Test 8: Sampling — 3000 easy adjacent Skewb scrambles');
 
   for (let i = 0; i < N; i++) {
     let scramble;
-    try { scramble = getEasySkewbScramble('adjacent', 'white'); }
+    try { const r = getEasySkewbScramble('adjacent', 'white'); scramble = r.scramble; }
     catch { skipped++; continue; }
 
     const skewb = new Skewb();
