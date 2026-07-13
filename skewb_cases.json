@@ -1,0 +1,1145 @@
+{
+  "3_solved:R": {
+    "key": "3_solved:R",
+    "rawKey": "R → U",
+    "slotU": "R",
+    "slotW": null,
+    "name": "Reber, Joel",
+    "algorithm": "F",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → F",
+    "cornerPerm": "G → D, C stays",
+    "caseType": "3_solved",
+    "tags": [
+      "1_mover",
+      "3_solved"
+    ],
+    "mirrorKey": "Q",
+    "isSelfMirror": false
+  },
+  "R,Q": {
+    "key": "R,Q",
+    "rawKey": "R → U, Q → W",
+    "slotU": "R",
+    "slotW": "Q",
+    "name": "Raquel",
+    "algorithm": "F L'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ R, F ↔ L",
+    "cornerPerm": "H → B, G → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "2_mover"
+    ],
+    "mirrorKey": "R,Q",
+    "isSelfMirror": true
+  },
+  "M,Q": {
+    "key": "M,Q",
+    "rawKey": "M → U, Q → W",
+    "slotU": "M",
+    "slotW": "Q",
+    "name": "Marquetant, Lea",
+    "algorithm": "F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "F → R → L",
+    "cornerPerm": "D → A, B → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "2_mover"
+    ],
+    "mirrorKey": "R,J",
+    "isSelfMirror": false
+  },
+  "G,J": {
+    "key": "G,J",
+    "rawKey": "G → U, J → W",
+    "slotU": "G",
+    "slotW": "J",
+    "name": "Gajda, Przemek",
+    "algorithm": "L F'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ R, F ↔ L",
+    "cornerPerm": "I → A, N → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "2_mover"
+    ],
+    "mirrorKey": "M,E",
+    "isSelfMirror": false
+  },
+  "A,Q": {
+    "key": "A,Q",
+    "rawKey": "A → U, Q → W",
+    "slotU": "A",
+    "slotW": "Q",
+    "name": "Aqua Man",
+    "algorithm": "L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → R",
+    "cornerPerm": "I → A, E → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "2_mover"
+    ],
+    "mirrorKey": "R,B",
+    "isSelfMirror": false
+  },
+  "M,B": {
+    "key": "M,B",
+    "rawKey": "M → U, B → W",
+    "slotU": "M",
+    "slotW": "B",
+    "name": "Miriam Barner",
+    "algorithm": "F L F",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ F, R ↔ L",
+    "cornerPerm": "C → B, F → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "A,J",
+    "isSelfMirror": false
+  },
+  "1_solved:R,Q": {
+    "key": "1_solved:R,Q",
+    "rawKey": "R → U, B → V, Q → W",
+    "slotU": "R",
+    "slotW": "Q",
+    "name": "Ruby & Inder mit einer quick question",
+    "algorithm": "L' F R",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → B → R → F",
+    "cornerPerm": "F → A, K → B, H → C, G → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,Q",
+    "isSelfMirror": false
+  },
+  "F,Q": {
+    "key": "F,Q",
+    "rawKey": "F → U, Q → W",
+    "slotU": "F",
+    "slotW": "Q",
+    "name": "Karin Fischli",
+    "algorithm": "F L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "F → L → R",
+    "cornerPerm": "A stays, J → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,H",
+    "isSelfMirror": false
+  },
+  "1_solved:R,E": {
+    "key": "1_solved:R,E",
+    "rawKey": "R → U, O → V, E → W",
+    "slotU": "R",
+    "slotW": "E",
+    "name": "Rosch & Elena Bolt",
+    "algorithm": "F R L'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → F → B → R",
+    "cornerPerm": "L → A, H → B, V → C, A → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "G,Q",
+    "isSelfMirror": false
+  },
+  "1_solved:R,K": {
+    "key": "1_solved:R,K",
+    "rawKey": "R → U, J → V, K → W",
+    "slotU": "R",
+    "slotW": "K",
+    "name": "Rajiv Andrade & Kim Kattelans",
+    "algorithm": "F R' L'",
+    "altAlgorithms": [],
+    "centerPerm": "U → B → L → F → R",
+    "cornerPerm": "L → A, H → B, O → C, M → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "P,Q",
+    "isSelfMirror": false
+  },
+  "1_solved:M,E": {
+    "key": "1_solved:M,E",
+    "rawKey": "M → U, C → V, E → W",
+    "slotU": "M",
+    "slotW": "E",
+    "name": "Marcel & Elena Bolt",
+    "algorithm": "F' L R'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → R → F → B",
+    "cornerPerm": "R → A, W → B, T → C, U → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "G,J",
+    "isSelfMirror": false
+  },
+  "I,Q": {
+    "key": "I,Q",
+    "rawKey": "I → U, Q → W",
+    "slotU": "I",
+    "slotW": "Q",
+    "name": "Iqufant",
+    "algorithm": "F' L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ F, R ↔ L",
+    "cornerPerm": "B → C, G → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,O",
+    "isSelfMirror": false
+  },
+  "1_solved:M,Q": {
+    "key": "1_solved:M,Q",
+    "rawKey": "M → U, N → V, Q → W",
+    "slotU": "M",
+    "slotW": "Q",
+    "name": "Manuele & Inder mit einer quick question",
+    "algorithm": "F' L' R'",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → L → F → B",
+    "cornerPerm": "D → A, E → B, T → C, U → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,J",
+    "isSelfMirror": false
+  },
+  "1_solved:M,C": {
+    "key": "1_solved:M,C",
+    "rawKey": "M → U, B → V, C → W",
+    "slotU": "M",
+    "slotW": "C",
+    "name": "Miriam Barner & Christopher Chi",
+    "algorithm": "F' R' L",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ B",
+    "cornerPerm": "R → A, V → B, N → C, U → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "D,J",
+    "isSelfMirror": false
+  },
+  "1_solved:M,K": {
+    "key": "1_solved:M,K",
+    "rawKey": "M → U, E → V, K → W",
+    "slotU": "M",
+    "slotW": "K",
+    "name": "Michelle Steinemann & Kim Kattelans",
+    "algorithm": "R' F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → F → R → B",
+    "cornerPerm": "R → A, H → B, Q → C, L → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "P,J",
+    "isSelfMirror": false
+  },
+  "1_solved:R,J": {
+    "key": "1_solved:R,J",
+    "rawKey": "R → U, Q → V, J → W",
+    "slotU": "R",
+    "slotW": "J",
+    "name": "Raquel & Jarjar",
+    "algorithm": "L F R'",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → F → L → B",
+    "cornerPerm": "F → A, W → B, T → C, G → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "M,Q",
+    "isSelfMirror": false
+  },
+  "G,C": {
+    "key": "G,C",
+    "rawKey": "G → U, C → W",
+    "slotU": "G",
+    "slotW": "C",
+    "name": "GC Fan",
+    "algorithm": "L F' L",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → F",
+    "cornerPerm": "E → C, L → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "D,E",
+    "isSelfMirror": false
+  },
+  "1_solved:G,J": {
+    "key": "1_solved:G,J",
+    "rawKey": "G → U, C → V, J → W",
+    "slotU": "G",
+    "slotW": "J",
+    "name": "GC Fan & Jarjar",
+    "algorithm": "L R' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → B → F → L",
+    "cornerPerm": "D → A, N → B, T → C, L → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "M,E",
+    "isSelfMirror": false
+  },
+  "A,N": {
+    "key": "A,N",
+    "rawKey": "A → U, N → W",
+    "slotU": "A",
+    "slotW": "N",
+    "name": "Anna",
+    "algorithm": "L' F' L",
+    "altAlgorithms": [],
+    "centerPerm": "F → L → R",
+    "cornerPerm": "B stays, L → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "L,B",
+    "isSelfMirror": false
+  },
+  "1_solved:A,Q": {
+    "key": "1_solved:A,Q",
+    "rawKey": "A → U, N → V, Q → W",
+    "slotU": "A",
+    "slotW": "Q",
+    "name": "Anna & Inder mit einer quick question",
+    "algorithm": "L' R' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → R → B → F",
+    "cornerPerm": "D → A, E → B, T → C, L → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,B",
+    "isSelfMirror": false
+  },
+  "1_solved:D,Q": {
+    "key": "1_solved:D,Q",
+    "rawKey": "D → U, B → V, Q → W",
+    "slotU": "D",
+    "slotW": "Q",
+    "name": "Deborah Babysitterin & Inder mit einer quick question",
+    "algorithm": "L' R F",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ B",
+    "cornerPerm": "F → A, V → B, W → C, M → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,C",
+    "isSelfMirror": false
+  },
+  "1_solved:I,Q": {
+    "key": "1_solved:I,Q",
+    "rawKey": "I → U, N → V, Q → W",
+    "slotU": "I",
+    "slotW": "Q",
+    "name": "Ina & Inder mit einer quick question",
+    "algorithm": "L' R' F",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, R ↔ B",
+    "cornerPerm": "F → A, B stays, T → C, M → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "R,O",
+    "isSelfMirror": false
+  },
+  "1_solved:D,B": {
+    "key": "1_solved:D,B",
+    "rawKey": "D → U, O → V, B → W",
+    "slotU": "D",
+    "slotW": "B",
+    "name": "Dodo & Barbare",
+    "algorithm": "R L' F",
+    "altAlgorithms": [],
+    "centerPerm": "U → B → F → R → L",
+    "cornerPerm": "F → A, N → B, V → C, M → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "A,C",
+    "isSelfMirror": false
+  },
+  "3_solved:I": {
+    "key": "3_solved:I",
+    "rawKey": "I → U",
+    "slotU": "I",
+    "slotW": null,
+    "name": "Irina Ibrahim",
+    "algorithm": "R' F R",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → B",
+    "cornerPerm": "B stays, A → D",
+    "caseType": "3_solved",
+    "tags": [
+      "3_mover",
+      "3_solved"
+    ],
+    "mirrorKey": "O",
+    "isSelfMirror": false
+  },
+  "1_solved:G,C": {
+    "key": "1_solved:G,C",
+    "rawKey": "G → U, E → V, C → W",
+    "slotU": "G",
+    "slotW": "C",
+    "name": "Gerald Koch & Christopher Chi",
+    "algorithm": "R' L F'",
+    "altAlgorithms": [],
+    "centerPerm": "F ↔ L, R ↔ B",
+    "cornerPerm": "D → A, K → B, N → C, L → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "D,E",
+    "isSelfMirror": false
+  },
+  "1_solved:I,K": {
+    "key": "1_solved:I,K",
+    "rawKey": "I → U, E → V, K → W",
+    "slotU": "I",
+    "slotW": "K",
+    "name": "Ihlefeld, Malte & Kim Kattelans",
+    "algorithm": "R' L' F",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → R → B → L",
+    "cornerPerm": "F → A, N → B, O → C, M → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "P,O",
+    "isSelfMirror": false
+  },
+  "1_solved:A,K": {
+    "key": "1_solved:A,K",
+    "rawKey": "A → U, E → V, K → W",
+    "slotU": "A",
+    "slotW": "K",
+    "name": "Ale (aus der N Klasse) & Kim Kattelans",
+    "algorithm": "R' L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "R → B → L",
+    "cornerPerm": "D → A, W → B, O → C, L → D",
+    "caseType": "1_solved",
+    "tags": [
+      "1_solved",
+      "3_mover"
+    ],
+    "mirrorKey": "P,B",
+    "isSelfMirror": false
+  },
+  "A,C": {
+    "key": "A,C",
+    "rawKey": "A → U, C → W",
+    "slotU": "A",
+    "slotW": "C",
+    "name": "Atze",
+    "algorithm": "B' L' F B'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ R",
+    "cornerPerm": "R → A, B → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "D,B",
+    "isSelfMirror": false
+  },
+  "M,O": {
+    "key": "M,O",
+    "rawKey": "M → U, O → W",
+    "slotU": "M",
+    "slotW": "O",
+    "name": "Mohammed Taha",
+    "algorithm": "F L F L",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → R",
+    "cornerPerm": "H → B, F → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "I,J",
+    "isSelfMirror": false
+  },
+  "M,H": {
+    "key": "M,H",
+    "rawKey": "M → U, H → W",
+    "slotU": "M",
+    "slotW": "H",
+    "name": "Mihaela",
+    "algorithm": "F L' F L",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → F",
+    "cornerPerm": "R → A, C stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "F,J",
+    "isSelfMirror": false
+  },
+  "F,N": {
+    "key": "F,N",
+    "rawKey": "F → U, N → W",
+    "slotU": "F",
+    "slotW": "N",
+    "name": "Fin Thiessen",
+    "algorithm": "F L' F' L",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ F, R ↔ L",
+    "cornerPerm": "C stays, D stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "L,H",
+    "isSelfMirror": false
+  },
+  "F,B": {
+    "key": "F,B",
+    "rawKey": "F → U, B → W",
+    "slotU": "F",
+    "slotW": "B",
+    "name": "Fabienne",
+    "algorithm": "F L' F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → R",
+    "cornerPerm": "H → C, D stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "A,H",
+    "isSelfMirror": false
+  },
+  "2_opposite_solved:P": {
+    "key": "2_opposite_solved:P",
+    "rawKey": "P → U, U → X",
+    "slotU": "P",
+    "slotW": null,
+    "name": "Puch Moonen",
+    "algorithm": "F' B F B'",
+    "altAlgorithms": [],
+    "centerPerm": "U → B → R",
+    "cornerPerm": "I → A, B stays, C stays",
+    "caseType": "2_opposite_solved",
+    "tags": [
+      "2_opposite_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "K",
+    "isSelfMirror": false
+  },
+  "3_solved:D": {
+    "key": "3_solved:D",
+    "rawKey": "D → U",
+    "slotU": "D",
+    "slotW": null,
+    "name": "Dadaist",
+    "algorithm": "F' L F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → L",
+    "cornerPerm": "J → B, G → D",
+    "caseType": "3_solved",
+    "tags": [
+      "3_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "C",
+    "isSelfMirror": false
+  },
+  "I,E": {
+    "key": "I,E",
+    "rawKey": "I → U, E → W",
+    "slotU": "I",
+    "slotW": "E",
+    "name": "Ihlefeld, Malte",
+    "algorithm": "F' L' F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "F → L → R",
+    "cornerPerm": "H → C, G → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "G,O",
+    "isSelfMirror": false
+  },
+  "L,O": {
+    "key": "L,O",
+    "rawKey": "L → U, O → W",
+    "slotU": "L",
+    "slotW": "O",
+    "name": "Lorena Strohner",
+    "algorithm": "L F L F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → L",
+    "cornerPerm": "E → C, D stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "I,N",
+    "isSelfMirror": false
+  },
+  "D,C": {
+    "key": "D,C",
+    "rawKey": "D → U, C → W",
+    "slotU": "D",
+    "slotW": "C",
+    "name": "Diana Chang",
+    "algorithm": "L F' L F'",
+    "altAlgorithms": [],
+    "centerPerm": "all stay",
+    "cornerPerm": "E → C, A → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "D,C",
+    "isSelfMirror": true
+  },
+  "D,N": {
+    "key": "D,N",
+    "rawKey": "D → U, N → W",
+    "slotU": "D",
+    "slotW": "N",
+    "name": "Daniel Perrin",
+    "algorithm": "L' F' L F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → L",
+    "cornerPerm": "F → A, C stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "L,C",
+    "isSelfMirror": false
+  },
+  "I,O": {
+    "key": "I,O",
+    "rawKey": "I → U, O → W",
+    "slotU": "I",
+    "slotW": "O",
+    "name": "Ioannis",
+    "algorithm": "R' F R L'",
+    "altAlgorithms": [],
+    "centerPerm": "F → B → L",
+    "cornerPerm": "E → C, A → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "I,O",
+    "isSelfMirror": true
+  },
+  "2_opposite_solved:M": {
+    "key": "2_opposite_solved:M",
+    "rawKey": "M → U, U → X",
+    "slotU": "M",
+    "slotW": null,
+    "name": "Marius Schraff",
+    "algorithm": "R' F' R B'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ B",
+    "cornerPerm": "P → A, B stays, Q → C, I → D",
+    "caseType": "2_opposite_solved",
+    "tags": [
+      "2_opposite_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "J",
+    "isSelfMirror": false
+  },
+  "3_solved:F": {
+    "key": "3_solved:F",
+    "rawKey": "F → U",
+    "slotU": "F",
+    "slotW": null,
+    "name": "Pfiffi",
+    "algorithm": "L F L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ R",
+    "cornerPerm": "D stays, J → B",
+    "caseType": "3_solved",
+    "tags": [
+      "3_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "H",
+    "isSelfMirror": false
+  },
+  "M,J": {
+    "key": "M,J",
+    "rawKey": "M → U, J → W",
+    "slotU": "M",
+    "slotW": "J",
+    "name": "Mejong",
+    "algorithm": "R' F' R L",
+    "altAlgorithms": [],
+    "centerPerm": "U → B → L",
+    "cornerPerm": "N → C, F → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "M,J",
+    "isSelfMirror": true
+  },
+  "M,C": {
+    "key": "M,C",
+    "rawKey": "M → U, C → W",
+    "slotU": "M",
+    "slotW": "C",
+    "name": "Mazge",
+    "algorithm": "R' F' R L'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ B, F ↔ L",
+    "cornerPerm": "E → C, F → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "D,J",
+    "isSelfMirror": false
+  },
+  "2_opposite_solved:X,K": {
+    "key": "2_opposite_solved:X,K",
+    "rawKey": "X → U, E → V, K → W, U → X",
+    "slotU": "X",
+    "slotW": "K",
+    "name": "Schiendorfer, Emanuel & Kuh",
+    "algorithm": "B R' F L' B",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → B → L → R",
+    "cornerPerm": "D → A, H → B, O → C, M → D",
+    "caseType": "2_opposite_solved",
+    "tags": [
+      "2_opposite_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "P,V",
+    "isSelfMirror": false
+  },
+  "2_opposite_solved:D": {
+    "key": "2_opposite_solved:D",
+    "rawKey": "D → U, U → X",
+    "slotU": "D",
+    "slotW": null,
+    "name": "Du",
+    "algorithm": "B R' F' R B'",
+    "altAlgorithms": [],
+    "centerPerm": "F → B → L",
+    "cornerPerm": "A stays, B stays, O → C, X → D",
+    "caseType": "2_opposite_solved",
+    "tags": [
+      "2_opposite_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "C",
+    "isSelfMirror": false
+  },
+  "R,N": {
+    "key": "R,N",
+    "rawKey": "R → U, N → W",
+    "slotU": "R",
+    "slotW": "N",
+    "name": "Renate",
+    "algorithm": "F L' F' L F",
+    "altAlgorithms": [],
+    "centerPerm": "F → R → L",
+    "cornerPerm": "C → B, A → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "L,Q",
+    "isSelfMirror": false
+  },
+  "D,O": {
+    "key": "D,O",
+    "rawKey": "D → U, O → W",
+    "slotU": "D",
+    "slotW": "O",
+    "name": "Dodo",
+    "algorithm": "F L F L F'",
+    "altAlgorithms": [
+      "L' F' L' R B'",
+      "L F' L' F L'"
+    ],
+    "centerPerm": "U ↔ L, F ↔ R",
+    "cornerPerm": "J → C, G → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "I,C",
+    "isSelfMirror": false
+  },
+  "D,H": {
+    "key": "D,H",
+    "rawKey": "D → U, H → W",
+    "slotU": "D",
+    "slotW": "H",
+    "name": "Deborah Hohl",
+    "algorithm": "F L' F L F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → R",
+    "cornerPerm": "B stays, G → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "F,C",
+    "isSelfMirror": false
+  },
+  "G,N": {
+    "key": "G,N",
+    "rawKey": "G → U, N → W",
+    "slotU": "G",
+    "slotW": "N",
+    "name": "Garret von Gaffron",
+    "algorithm": "F L' F' L F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → L",
+    "cornerPerm": "I → A, B stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "L,E",
+    "isSelfMirror": false
+  },
+  "A,B": {
+    "key": "A,B",
+    "rawKey": "A → U, B → W",
+    "slotU": "A",
+    "slotW": "B",
+    "name": "Abraham",
+    "algorithm": "F L' F' L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ R",
+    "cornerPerm": "I → A, H → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "A,B",
+    "isSelfMirror": true
+  },
+  "G,E": {
+    "key": "G,E",
+    "rawKey": "G → U, E → W",
+    "slotU": "G",
+    "slotW": "E",
+    "name": "Gerald Koch",
+    "algorithm": "F' L F L F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "all stay",
+    "cornerPerm": "C → B, I → A",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "G,E",
+    "isSelfMirror": true
+  },
+  "M,N": {
+    "key": "M,N",
+    "rawKey": "M → U, N → W",
+    "slotU": "M",
+    "slotW": "N",
+    "name": "Manuele",
+    "algorithm": "F' L' F' L F",
+    "altAlgorithms": [],
+    "centerPerm": "U → L → F",
+    "cornerPerm": "B stays, D → A",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "L,J",
+    "isSelfMirror": false
+  },
+  "L,N": {
+    "key": "L,N",
+    "rawKey": "L → U, N → W",
+    "slotU": "L",
+    "slotW": "N",
+    "name": "Lynn Aders",
+    "algorithm": "F' L' F' L F'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ R",
+    "cornerPerm": "A stays, C stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "L,N",
+    "isSelfMirror": true
+  },
+  "F,E": {
+    "key": "F,E",
+    "rawKey": "F → U, E → W",
+    "slotU": "F",
+    "slotW": "E",
+    "name": "Fee",
+    "algorithm": "F' L' F' L' F'",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → L",
+    "cornerPerm": "A stays, H → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "G,H",
+    "isSelfMirror": false
+  },
+  "D,Q": {
+    "key": "D,Q",
+    "rawKey": "D → U, Q → W",
+    "slotU": "D",
+    "slotW": "Q",
+    "name": "Dominique Guidon",
+    "algorithm": "L B L B' F",
+    "altAlgorithms": [],
+    "centerPerm": "U → R → F → L → B",
+    "cornerPerm": "B → C, A → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "R,C",
+    "isSelfMirror": false
+  },
+  "G,B": {
+    "key": "G,B",
+    "rawKey": "G → U, B → W",
+    "slotU": "G",
+    "slotW": "B",
+    "name": "Gabi",
+    "algorithm": "L F L' F L",
+    "altAlgorithms": [
+      "B L' B' L' F'"
+    ],
+    "centerPerm": "all stay",
+    "cornerPerm": "R → A, C → B",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "A,E",
+    "isSelfMirror": false
+  },
+  "G,Q": {
+    "key": "G,Q",
+    "rawKey": "G → U, Q → W",
+    "slotU": "G",
+    "slotW": "Q",
+    "name": "George Scholey",
+    "algorithm": "L R' F' R L",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ F, L ↔ B",
+    "cornerPerm": "E → C, F → D",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "R,E",
+    "isSelfMirror": false
+  },
+  "A,O": {
+    "key": "A,O",
+    "rawKey": "A → U, O → W",
+    "slotU": "A",
+    "slotW": "O",
+    "name": "Alona",
+    "algorithm": "L' F L' F L",
+    "altAlgorithms": [],
+    "centerPerm": "U → F → L",
+    "cornerPerm": "R → A, E → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "I,B",
+    "isSelfMirror": false
+  },
+  "F,H": {
+    "key": "F,H",
+    "rawKey": "F → U, H → W",
+    "slotU": "F",
+    "slotW": "H",
+    "name": "Fähe",
+    "algorithm": "L' F L' F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ R, F ↔ L",
+    "cornerPerm": "B stays, D stays",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "F,H",
+    "isSelfMirror": true
+  },
+  "F,O": {
+    "key": "F,O",
+    "rawKey": "F → U, O → W",
+    "slotU": "F",
+    "slotW": "O",
+    "name": "Florine Grob",
+    "algorithm": "L F L' F' L'",
+    "altAlgorithms": [
+      "F' R L B' R"
+    ],
+    "centerPerm": "U → F → R",
+    "cornerPerm": "A stays, B → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "I,H",
+    "isSelfMirror": false
+  },
+  "2_opposite_solved:G": {
+    "key": "2_opposite_solved:G",
+    "rawKey": "G → U, U → X",
+    "slotU": "G",
+    "slotW": null,
+    "name": "Gut, Markus",
+    "algorithm": "L F' L B L B",
+    "altAlgorithms": [
+      "L' B' L' F L' B"
+    ],
+    "centerPerm": "U → R → B → F → L",
+    "cornerPerm": "P → A, E → B, C stays, D stays",
+    "caseType": "2_opposite_solved",
+    "tags": [
+      "2_opposite_solved",
+      "6_mover"
+    ],
+    "mirrorKey": "E",
+    "isSelfMirror": false
+  },
+  "3_solved:L": {
+    "key": "3_solved:L",
+    "rawKey": "L → U",
+    "slotU": "L",
+    "slotW": null,
+    "name": "Lama",
+    "algorithm": "F L F' L'",
+    "altAlgorithms": [],
+    "centerPerm": "U ↔ L, F ↔ R",
+    "cornerPerm": "D stays, E → B",
+    "caseType": "3_solved",
+    "tags": [
+      "3_solved",
+      "4_mover"
+    ],
+    "mirrorKey": "N",
+    "isSelfMirror": false
+  },
+  "R,E": {
+    "key": "R,E",
+    "rawKey": "R → U, E → W",
+    "slotU": "R",
+    "slotW": "E",
+    "name": "Reh",
+    "algorithm": "F' R' F' R L",
+    "altAlgorithms": [],
+    "centerPerm": "U → F →R → B → L → U",
+    "cornerPerm": "B → D, N → C",
+    "caseType": "2_adjacent_solved",
+    "tags": [
+      "2_adjacent_solved",
+      "5_mover"
+    ],
+    "mirrorKey": "G,Q",
+    "isSelfMirror": false
+  }
+}

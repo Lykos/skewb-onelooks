@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One-Look Speedcubing Trainer</title>
+  <meta name="description" content="A premium, state-of-the-art trainer for 2x2 and Skewb with normal and easy scramble options to improve your one-look capabilities.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar: Sessions, Times, Stats -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1 class="logo">OneLook<span>Trainer</span></h1>
+      </div>
+
+      <!-- Session Selection and Actions -->
+      <div class="section-card session-section">
+        <h2 class="section-title">Session</h2>
+        <div class="flex-row">
+          <select id="session-select" aria-label="Select Training Session"></select>
+          <button id="add-session-btn" class="icon-btn" title="Create New Session" aria-label="Add Session">+</button>
+        </div>
+        <div class="session-info-pills">
+          <span id="session-puzzle-pill" class="pill">2x2</span>
+          <span id="session-scramble-pill" class="pill pill-accent">Normal</span>
+        </div>
+      </div>
+
+      <!-- Statistics Card -->
+      <div class="section-card stats-section">
+        <h2 class="section-title">Statistics</h2>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-label">ao5</span>
+            <span id="stat-ao5" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">ao12</span>
+            <span id="stat-ao12" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">ao50</span>
+            <span id="stat-ao50" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">ao100</span>
+            <span id="stat-ao100" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Best ao5</span>
+            <span id="stat-best-ao5" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Best ao12</span>
+            <span id="stat-best-ao12" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Best ao50</span>
+            <span id="stat-best-ao50" class="stat-value">-</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Best ao100</span>
+            <span id="stat-best-ao100" class="stat-value">-</span>
+          </div>
+        </div>
+        <div class="session-summary">
+          <span>Solves: <strong id="stat-count">0</strong></span>
+        </div>
+      </div>
+
+      <!-- Solve Times List -->
+      <div class="section-card times-section">
+        <div class="flex-row space-between">
+          <h2 class="section-title">Times</h2>
+          <button id="clear-session-btn" class="text-btn danger" title="Clear all times in this session">Clear</button>
+        </div>
+        <div class="times-list-container">
+          <ul id="times-list" class="times-list">
+            <!-- Populated dynamically -->
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Trainer Area -->
+    <main class="main-content">
+      <!-- Top Scramble Bar -->
+      <div class="scramble-card">
+        <div class="scramble-header">
+          <span class="scramble-label">Scramble</span>
+          <div class="scramble-actions">
+            <button id="copy-scramble-btn" class="action-btn-sm" title="Copy scramble text">Copy</button>
+            <button id="next-scramble-btn" class="action-btn-sm primary" title="Generate next scramble">Next</button>
+          </div>
+        </div>
+        <div id="scramble-text" class="scramble-text">Generating scramble...</div>
+      </div>
+
+      <!-- Interactive Net Visualizer -->
+      <div class="visualizer-container">
+        <svg id="cube-net-svg" viewBox="0 0 240 180" width="100%" height="100%"></svg>
+      </div>
+
+      <!-- Timer Section -->
+      <div class="timer-container" id="timer-trigger">
+        <div id="timer-display" class="timer-display">0.00</div>
+        <div class="timer-helper">Press Spacebar or tap here to start</div>
+      </div>
+
+      <!-- Hint Section (Skewb easy mode only) -->
+      <div class="hint-section" id="hint-section">
+        <button id="hint-btn" class="action-btn-sm hint-btn" title="Show case name / transformation">Hint</button>
+        <div id="hint-display" class="hint-display"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Add Session Modal -->
+  <div id="add-session-modal" class="modal-overlay">
+    <div class="modal-card">
+      <h2 class="modal-title">New Training Session</h2>
+      <form id="add-session-form">
+        <div class="form-group">
+          <label for="new-session-name">Session Name</label>
+          <input type="text" id="new-session-name" placeholder="e.g. 2x2 Easy Practice" required maxlength="25">
+        </div>
+        <div class="form-group">
+          <label for="new-session-puzzle">Puzzle Type</label>
+          <select id="new-session-puzzle">
+            <option value="2x2">2x2 Cube</option>
+            <option value="Skewb">Skewb</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="new-session-scramble">Scramble Type</label>
+          <select id="new-session-scramble">
+            <option value="normal">Normal Scramble</option>
+            <option value="easy">Easy Scramble</option>
+          </select>
+        </div>
+        <div class="form-group" id="easy-options-type-group" style="display: none;">
+          <label for="new-session-easy-type">Easy Layer Type</label>
+          <select id="new-session-easy-type">
+            <option value="adjacent">Adjacent (2 solved)</option>
+            <option value="diagonal">Diagonal (2 solved)</option>
+          </select>
+        </div>
+        <div class="form-group" id="easy-options-color-group" style="display: none;">
+          <label for="new-session-color-restriction">Color Restriction</label>
+          <select id="new-session-color-restriction">
+            <option value="white">White Face Only</option>
+            <option value="any">Any Color (Color Neutral)</option>
+          </select>
+        </div>
+        <div class="modal-actions">
+          <button type="button" id="modal-cancel-btn" class="text-btn">Cancel</button>
+          <button type="submit" class="action-btn-sm primary">Create Session</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Time Details Popover Modal -->
+  <div id="time-detail-modal" class="modal-overlay">
+    <div class="modal-card">
+      <h2 class="modal-title">Solve Details</h2>
+      <div class="detail-body">
+        <p><strong>Time:</strong> <span id="detail-time-val">12.34</span></p>
+        <p><strong>Scramble:</strong> <span id="detail-scramble-val" class="mono">R U' F...</span></p>
+        <p><strong>Date:</strong> <span id="detail-date-val">July 5, 2026</span></p>
+      </div>
+      <div class="detail-actions">
+        <button id="detail-plus2-btn" class="action-btn-sm">+2</button>
+        <button id="detail-dnf-btn" class="action-btn-sm danger-btn">DNF</button>
+        <button id="detail-delete-btn" class="action-btn-sm danger">Delete Solve</button>
+        <button id="detail-close-btn" class="text-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="skewb_utils.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

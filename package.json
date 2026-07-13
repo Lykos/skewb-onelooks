@@ -1,0 +1,12 @@
+{
+  "name": "onelook-speedcubing-trainer",
+  "version": "1.0.0",
+  "description": "A premium speedcubing trainer for 2x2 and Skewb with normal and easy scramble variants.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Antigravity",
+  "license": "ISC"
+}
